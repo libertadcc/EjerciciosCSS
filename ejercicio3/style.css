@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  margin: 0;
+  font-size: 20px;
+}
+li:hover {
+  color: red;
+  cursor: pointer;
+}
