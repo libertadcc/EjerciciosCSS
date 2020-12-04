@@ -1,0 +1,18 @@
+#menu {
+  font-family: Arial;
+  padding: 10px;
+}
+
+#menu p {
+  padding: 5px;
+  background-color: paleturquoise;
+  width: 120px;
+}
+
+#menu a:hover {
+  color: red;
+}
+
+#menu a:visited {
+  color: green;
+}
