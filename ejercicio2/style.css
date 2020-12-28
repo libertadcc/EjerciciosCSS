@@ -6,10 +6,12 @@ body {
   line-height: 1.5;
 }
 
-h2 {
-  background-color: green;
-}
-
-ul {
-  background-color: orange;
+@media all and (min-width: 600px) {
+  h2 {
+    background-color: green;
+  }
+  
+  ul {
+    background-color: orange;
+  }
 }
