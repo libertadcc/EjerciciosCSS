@@ -3,18 +3,18 @@ body {
   padding: 0;
 }
 ul {
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: space-around;
   align-items: center;
-  height: 60px;
+  /* height: 60px;
   margin: 0;
-  font-size: 20px;
+  font-size: 20px; */
 }
-li:hover {
+.item:hover {
   color: red;
   cursor: pointer;
 }

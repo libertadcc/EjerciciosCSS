@@ -15,3 +15,13 @@ body {
     background-color: orange;
   }
 }
+
+@media all and (min-width: 1280px) {
+  h2 {
+    background-color: pink;
+  }
+  
+  ul {
+    background-color: blue;
+  }
+}

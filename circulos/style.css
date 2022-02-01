@@ -1,0 +1,14 @@
+.fila {
+    display: flex;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    opacity: 0;
+}
