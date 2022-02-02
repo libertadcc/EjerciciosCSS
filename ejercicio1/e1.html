@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Integración de estilos</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <style>
+        html, body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+        .interno {
+            font-size: 10px;
+            margin-top: 30px;
+           text-decoration: underline;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Integración de estilos</h1> <!-- hola -->
+    <p id="externo">En este ejercicio estamos viendo cómo podemos integrar los estilos de distintas formas. 
+      Este párrafo tiene los estilos definidos en un archivo externo.
+    </p>
+    <p style="font-size: 18px; color: green; background-color: grey">Mientras que este los tiene definidos como atributos de la etiqueta HTML.</p>
+
+    <p class="interno">Y este último, dentro de la etiqueta head del HTML.</p>
+  </body>
+</html>
