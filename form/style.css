@@ -6,4 +6,5 @@
     background-image: url("images/dnde-est-que-yo-lo-vea.jpg") ;
     width: 600px;
     height: 500px;
+    background-repeat: no-repeat;
 }
